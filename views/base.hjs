@@ -6,11 +6,11 @@
   </head>
   <body>
 
-  <header>HEADER</header>
+  <esi:include src="https://kwasniew.github.io/menu1.html" />
 
   {{> layout}}
 
-  <footer>FOOTER</footer>
+  <esi:include src="https://kwasniew.github.io/footer.html" />
 
   </body>
 </html>
